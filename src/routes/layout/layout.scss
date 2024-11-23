@@ -1,0 +1,29 @@
+@import "../../responsive.scss";
+
+.layout {
+    // background-color: aquamarine;
+    max-width: 1366px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+
+    @include sm {
+        // background-color: rgb(168, 168, 250);
+    }
+
+    @include md {
+        //background-color: rgb(244, 250, 168);
+    }
+
+    @include lg {
+        //background-color: rgb(250, 168, 197);
+    }
+
+    .content {
+        flex:1;
+    }
+}
